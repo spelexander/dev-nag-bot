@@ -1,5 +1,6 @@
 # dev-nag-bot
-A nag/joke tool for git. recipients reminders to document changes to chosen git repositories.
+A nag/joke tool for git. 
+Sends email reminders to developers to document changes to GUI in chosen git repositories.
 
 # How it works
 -Developer A edits some component of the GUI in an app
