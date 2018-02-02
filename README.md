@@ -17,7 +17,7 @@ Works on multiple repositories at a time.
 # clone this repo
 `git clone https://github.com/spelexander/dev-nag-bot.git`
 
-# enter to repo
+# enter repo
 `cd dev-nag-bot`
 
 # run
