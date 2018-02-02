@@ -3,27 +3,28 @@ A nag/joke tool for git.
 Sends email reminders to developers to document changes to GUI in chosen git repositories.
 
 # How it works
--Developer A edits some component of the GUI in an app
--Developer A forgets to document the change
--nag-bot(running weekly) reviews commits from last it ran
--nag-bot finds that 25 files of interest were changed by Developer A
--nag-bot shoots out a joke email asking about the 25 GUI files in the repository have been changed, with file names, commit messages and other authors
+- Developer A edits some component of the GUI in an app
+- Developer A forgets to document the change
+- nag-bot(running weekly) reviews commits from last it ran
+- nag-bot finds that 25 files of interest were changed by Developer A
+- nag-bot shoots out a joke email asking about the 25 GUI files in the repository have been changed, with file names, commit messages and other authors
 
 Works on multiple repositories at a time.
 
 # install gitpython
-pip install gitpython
+`pip install gitpython`
 
 # clone this repo
-git clone https://github.com/spelexander/dev-nag-bot.git
+`git clone https://github.com/spelexander/dev-nag-bot.git`
 
 # enter to repo
-cd dev-nag-bot
+`cd dev-nag-bot`
 
 # run
-python nagger.py
+`python nagger.py`
 
 # Edit the config.json file for the desired attributes:
+~~~
 {
   "UserName":"enter-email@gmail.com", # Gmail account email address to use
   "Sender":[ # Arbitrary joke list of names to randomly select from to set as the senders name
@@ -55,5 +56,5 @@ python nagger.py
     "Model",
     "Dialog",
   ]
-
+~~~
 # Now put it in a cronjob to pull from other repo's and run at your own discretion
