@@ -1,0 +1,36 @@
+{
+  "UserName":"enter-email@gmail.com",
+  "Sender":[
+    "Kevin",
+    "Greg",
+    "Fergus",
+    "Henry",
+    "Gertrude",
+    "Linda"],
+  "Password":"enter-password",
+  "To":[
+    "enter-recepient@email.com"
+  ],
+  "Repos":[
+    "/path/to/repo"
+  ],
+  "Apps":[
+    "enter-app-name"
+  ],
+  "CommitCount":50,
+  "Branch":"master",
+  "DateFile":"previous-date.txt",
+  "Extensions": [
+    ".java",
+    ".py",
+    ".rst"
+  ],
+  "Packages":[
+    "Panel",
+    "Model",
+    "Dialog",
+    "Frame",
+    "Renderer",
+    "Editor"
+  ]
+}
